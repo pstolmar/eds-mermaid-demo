@@ -1,5 +1,5 @@
 
-/*Sherest*/
+/* Sherest */
 footer {
   background-color: var(--footer-color);
   color: var(--background-color);
@@ -15,11 +15,10 @@ footer .footer {
 .footer > div {
   display: grid;
   align-items: center;
-  grid-template-columns: auto 70%;
-  grid-template-rows: auto;
-  grid-template-areas:
-          "brand nav"
-          "disc disc";
+  grid-template:
+    "brand nav"
+    "disc disc"
+    / auto 70%;
 }
 
 .footer .brand {
@@ -44,7 +43,7 @@ footer ul {
 footer li {
   display: block;
   float: left;
-  color: #ffffff;
+  color: #fff;
   font-size: 14px;
   text-transform: uppercase;
   padding: 15px 17px;
