@@ -22,17 +22,16 @@
 
 .sherest .sherest-card-body > *:first-child {
     margin-top: 0;
-
     font-size: 1.2rem;
     line-height: 1.8rem;
 }
+
 .three-line-clamp .sherest .sherest-card-body > p:last-child {
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-
     font-size: 1rem;
     line-height: 1.6rem;
 }

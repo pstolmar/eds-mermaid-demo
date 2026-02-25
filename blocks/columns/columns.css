@@ -29,6 +29,7 @@
   line-height: 1.6rem;
   width: 90%;
 }
+
 .custom-column p strong {
   font-size: var(--body-font-size-l);
 }
